@@ -1,0 +1,280 @@
+.navbar-custom {
+    background-color: #333;
+}
+
+.navbar-custom .navbar-nav .nav-link,
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-toggler {
+    color: white;
+}
+
+.nav-item{
+    font-family: 'DM Serif Display', serif;
+    color: white;
+    font-weight: 200;
+    font-size: 20px;
+    padding: 0px 20px 0px 20px;
+}
+
+
+.hero {
+    background-image: url("images/blocks-01voTCIdeWw-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding-left: 50px;
+    margin-top: -1px;
+}
+
+.welcome-heading {
+    color: white;
+    font-weight: bold;
+  }
+
+.hero-heading {
+    color: white;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    align-self: center;
+}
+
+.cta {
+    background-color: #222; 
+    color: white;
+    padding: 10px 20px;
+    margin: 5px;
+    text-decoration: none;
+    font-family: 'DM Serif Display', serif;
+    font-weight: bold;
+}
+
+.about-container {
+    background-color: lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: calc(100vh - 170px);
+}
+
+.about-image {
+    width: 50%;
+    text-align: center;
+}
+
+.about-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.about-text {
+    align-content: center;
+    font-family: 'DM Serif Display', serif;
+    font-size:large;
+    background-color: lightgray;
+    padding: 0 20px 0 20px;
+}
+
+.shop-container{
+    align-items: center;
+    width: 100%;
+    background-color: lightgray;
+    font-family: 'DM Serif Display', serif;
+
+}
+
+.accessories-container{
+    align-items: center;
+    width: 100%;
+    background-color: lightgray;
+    font-family: 'DM Serif Display', serif;
+
+
+}
+
+.card-img-custom{
+    height: 300px;
+    object-fit: cover;
+}
+
+.card-container{
+    background-color: lightgray;
+}
+
+.btn-btn-primary{
+    background-color: #222;
+    color: white;
+}
+
+.row row-cols-1 row-cols-lg-2 g-4{
+    align-items: center;
+    width: 100% 100%;
+}
+
+#cart {
+    background-color: #f9f9f9;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .cart-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .cart-item img {
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+  }
+  
+  .cart-item button {
+    margin-left: auto;
+  }
+  
+  .container-fluid {
+    display: flex;
+    width: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-container {   
+    background-color: lightgray;
+    align-items: center;
+    font-family: 'DM Serif Display', Times, 3serif;
+    font-weight: bold;
+    width: 50%;
+    min-height: calc(100vh - 170px);
+}
+
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.contact-form .submit {
+    margin-top: 20px; 
+}
+
+.form-field {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.form-field label {
+    margin-right: 10px;
+}
+
+
+.maps-container {
+    background-image: url(images/anton-maksimov-5642-su-R2ljPFJju1s-unsplash.jpg);
+    background-color: darkgray;
+    align-items: center;
+    justify-content: center;
+    font-family: 'DM Serif Display', Times, serif;
+    width: 50%;
+    padding: 0px 20px 0px 20px;
+}
+
+.form-container div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 0px 100px;
+    font-family: 'DM Serif Display', Times, serif;
+}
+
+.form-container label {
+    width: 80px;
+}
+
+.form-container input {
+    flex-grow: 1;
+}
+
+.submit{
+    background-color: #222;
+    color: white;
+    font-family: 'DM Serif Display', serif;
+    align-items: center;
+}
+
+.thanks-container{
+    background-image: url(images/website_logo_2.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: calc(100vh - 170px);
+    padding: 0px 100px;
+    font-family: 'DM Serif Display', Times, serif;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.message-container{
+    font-family: 'DM Serif Display', Times, serif;
+    padding: 0px 50px;
+    font-size: 2em;
+}
+
+.footer {
+    margin-top: auto;
+    background-color: #333;
+    width: 100%;
+    padding: 20px 0;
+    color: white;
+    flex: 1;
+    grid-row: -1;
+    font-family: 'DM Serif Display', Times, serif;
+    font-size: 20px;
+}
+
+.footer-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 0px 20px 0px 20px;
+}
+
+.footer-links li a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-links li a:hover {
+    text-decoration: underline;
+}
+
+.copyright {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
